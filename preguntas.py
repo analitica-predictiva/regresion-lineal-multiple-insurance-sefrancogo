@@ -88,10 +88,10 @@ def pregunta_03():
             # las variables.
             (
                 "column_transfomer",
-                column_transformer(
+                make_column_transformer(
                     (
                         OneHotEncoder(),
-                        make_column_transformer(dtype_include=object),
+                        make_column_selector(dtype_include=object),
                     ),
                     remainder=passthrough,
                 ),
