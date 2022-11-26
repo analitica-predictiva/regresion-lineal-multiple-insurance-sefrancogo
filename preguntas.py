@@ -51,7 +51,7 @@ def pregunta_02():
         X,
         y,
         test_size = 300,
-        random_state = 1234,
+        random_state = 12345,
     )
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
