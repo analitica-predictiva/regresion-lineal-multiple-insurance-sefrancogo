@@ -127,7 +127,7 @@ def pregunta_03():
         param_grid = param_grid,
         cv = 5,
         scoring = 'neg_mean_squared_error',
-        refit = Ture,
+        refit = True,
         return_train_score = False,
     )
 
